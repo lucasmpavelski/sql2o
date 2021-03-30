@@ -62,6 +62,10 @@ public class Query implements AutoCloseable {
         return parsedQuery;
     }
 
+    public PreparedStatement getPreparedStatement() {
+        return preparedStatement;
+    }
+
     public Query(Connection connection, String queryText, boolean returnGeneratedKeys) {
         this(connection, queryText, returnGeneratedKeys, null);
     }

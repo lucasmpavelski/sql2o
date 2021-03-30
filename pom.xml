@@ -22,7 +22,7 @@
 
     <modules>
         <module>core</module>
-        <module>extensions</module>
+        <!-- <module>extensions</module> -->
     </modules>
 
     <properties>
